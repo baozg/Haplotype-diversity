@@ -1,11 +1,13 @@
 # Identification of Deleterious SVs (dSVs)
 
-- Frequency of SV no more than three
+<img width="300" alt="image" src="https://github.com/Chenglin20170390/Haplotype-diversity/assets/33062118/c9798f27-336d-4bb6-bc0d-ad357b2dca8e">
+
+- Frequency of SV no more than 5%(three)
 ```
 cat 60.hap.sv.fre.bed |awk '$6<=3' > 01_het_fre/sv.all.3.bed
 ```
 
-- We need two files for identify dSV 1.[Reference gene file](https://academic.oup.com/gigascience/article/9/9/giaa100/5910251) (DMv6.gff file) 2.[Constraint regions](https://doi.org/10.1016/j.cell.2023.04.008)（GERP>=2）
+- We need two files for identify dSV 1.[The CDS of Reference genome file](https://academic.oup.com/gigascience/article/9/9/giaa100/5910251) (DMv6.gff file) 2.[Constraint regions](https://doi.org/10.1016/j.cell.2023.04.008)（GERP>=2）
 ```
 Here refrence file named  DM.gff3 ; constraint file named Sol_msa_AllChrs_GERP_withDepth.bed_Conserved2.info
 
