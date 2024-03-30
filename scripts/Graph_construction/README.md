@@ -1,6 +1,17 @@
 # Building a phased potato pangenome
 <img width="300" alt="image" src="https://github.com/Chenglin20170390/Haplotype-diversity/assets/33062118/b54368ca-d420-43e4-b591-cc5c3eceab7f">
 
+<!-- toc -->
+
+- [Rename by Pan-SN](#rename-by-pan-sn)
+- [Estimation of divergence](#estimation-of-divergence)
+- [Chromosome community](#chromosome-community)
+- [Building pangenome graph](#building-pangenome-graph)
+  * [PGGB](#pggb)
+    + [Non-ref paths](#non-ref-paths)
+  * [Minigraph-Cactus](#minigraph-cactus)
+
+<!-- tocstop -->
 
 ## Rename by Pan-SN
 Follow the PanSN nameing scheme, we rename all the sequence to `A157#1#chr01` such as this.
